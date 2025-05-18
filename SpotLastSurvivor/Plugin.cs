@@ -16,7 +16,8 @@ namespace SpotLastSurvivor
         public override string Name { get; } = "SpotLastSurvivor";
         public override string Author { get; } = "Antoniofo";
 
-        public override Version Version => new Version(2, 0, 0);
+        public override Version Version => new Version(2, 0, 1);
+        public override Version RequiredExiledVersion { get; } = new Version(9, 6, 0);
 
         public override string Prefix => "sls";
 
