@@ -10,7 +10,7 @@ on:
     - main
   workflow_dispatch:
 env:
-  REFERENCES_URL: https://exmod-team.github.io/SL-References/Master.zip
+  REFERENCES_URL: https://exslmod-team.github.io/SL-References/LabAPI.zip
   EXILED_REFERENCES: ${{ github.workspace }}/References
 jobs:
   build:
